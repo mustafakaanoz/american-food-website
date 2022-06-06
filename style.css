@@ -1,0 +1,526 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Bebas Neue', cursive;
+  line-height: 1;
+  width: 100%;
+  max-width: 1600px;
+  color: #3d2514;
+  margin: auto;
+  text-align: justify;
+ overflow-x: hidden;
+}
+
+.container{
+  
+  padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+  overflow: hidden;
+}
+
+header {
+  
+  font-size: 16px;
+  background: url(img/Rectangle.png) repeat center center fixed;
+  width: 100%;
+  height: 825px;
+  
+}
+
+.top-nav {
+  font-size: 3rem;
+  display: flex;
+  position: relative;
+  top: -50px;
+  justify-content:end;
+  gap: 15px;
+  align-items: center;
+
+}
+.top-nav p {
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+.nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  gap: 60px;
+  position: relative;
+  top: -20px;
+}
+
+.nav ul li   {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+
+}
+
+.nav ul li a{
+  letter-spacing: .5vmin;
+  font-weight: 400;
+  color: #3d2514;
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.5rem;
+  z-index: 9999;
+}
+
+.nav ul li a:hover {
+  color: #bf2222;
+  transition: all .5s ease;
+}
+
+.group-1 {
+  display: grid;
+  grid-template-columns: 2fr;
+  
+}
+.group-1 p {
+  grid-column-start: 1;
+  position: relative;
+  top: 120px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-left: 20px ;
+}
+
+.group-1 h1 {
+  grid-column-start: 1;
+  position: relative;
+  top: 155px;
+  font-size: 130px;
+  font-family: 'Alfa Slab One';
+  text-shadow: 6px 6px #fee8bc;
+  letter-spacing: .2rem;
+}
+
+.group-1 h2 {
+  grid-column-start: 1;
+  position: relative;
+  top: 155px;
+  font-size: 60px;
+  font-family: 'Alfa Slab One';
+  text-shadow: 6px 6px #fee8bc;
+  letter-spacing: .2rem;
+}
+
+.group-1 .dash {
+  grid-column-start: 1;
+  position: relative;
+  top: 155px;
+  width: 69%;
+}
+
+.group-1 .burgers {
+  grid-column-start: 2;
+  position: relative;
+  top: -350px;
+  right: 0px;
+  width: 100%;
+  
+}
+
+.group-1 .red {
+  grid-column-start: 2;
+  position: relative;
+  top: -730px;
+  right: -180px;
+ 
+}
+
+.group-1 .red-dot {
+  grid-column-start: 2;
+  position: relative;
+  top: -892px;
+  right: -191px;
+ 
+}
+
+
+
+.group-1 .only {
+  color: #fff;
+  
+  font-size: 4rem ;
+  grid-column-start: 2;
+  position: relative;
+  top: -1020px;
+  right: -205px;
+ 
+}
+
+.group-1 .only span {
+  font-size: 2rem;
+}
+
+
+.group-1 .only-2 {
+  color: #fff;
+  letter-spacing: .6rem;
+  font-size: 2.5rem ;
+  grid-column-start: 2;
+  position: relative;
+  top: -1020px;
+  right: -207px;
+ 
+}
+
+.group-2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+  height: 600px;
+  padding-left: 60px;
+  padding-right: 100px;
+  margin-top: 80px;
+  grid-gap: 40px;
+  
+  
+}
+
+.group-2 .burger-1 {
+  width: 100%;
+  grid-column-start: 1;
+  
+
+}
+
+.group-2 .burger-2 {
+  width: 100%;
+  grid-column-start: 2;
+  
+  
+}
+
+.group-2 .burger-3 {
+  position: relative;
+  top: -270px;
+  width: 100%;
+  grid-column-start: 2;
+  
+  
+}
+.burger1 {
+  color: #fff;
+  font-size: 3rem;
+  position: absolute;
+  top:58rem;
+  left: 6rem;
+}
+
+.burger1 span {
+  font-size: 2rem;
+}
+.burger2 {
+  color: #fff;
+  font-size: 3rem;
+  position: absolute;
+  top:58rem;
+  left: 53rem;
+}
+
+.burger2 span {
+  font-size: 2rem;
+}
+
+.burger3 {
+  z-index: 9999;
+  color: #fff;
+  font-size: 3rem;
+  position: absolute;
+  top:75rem;
+  left: 53rem;
+}
+
+.burger3 span {
+  font-size: 2rem;
+}
+
+.group-3 {
+  margin-left: 10%;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.group-3 button {
+  font-family: 'Bebas Neue';
+  border: none;
+  background-color: #ffc045;
+  color: #3d2514;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+
+.group-3 .baslik {
+  font-size: 60px;
+  font-family: 'Alfa Slab One';
+  font-weight: 500;
+  letter-spacing: .2rem;
+  margin-bottom: 25px;
+}
+
+.group-3 p {
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2rem;
+}
+
+.group-4 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 50px;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+  height: 650px;
+  width: 100%;
+}
+
+
+
+.group-4 h2 {
+  font-size: 2.4rem;
+  line-height: 4rem;
+  
+}
+
+.group-4 p {
+  font-size: 1.1rem;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5rem;
+  padding-bottom: 2rem;
+  
+}
+
+.btn-2 {
+  background-color: #bf2222;
+  font-family: 'Alfa Slab One';
+  border: none;
+  color: #fff;
+  font-weight: 200;
+  font-size: 1rem;
+  padding: 15px 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.slider {
+  height: 500px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  width: 90%;
+  padding: 50px 50px;
+  background-color: #fff;
+  margin-left: 90px;
+  margin-right: -90px;
+  box-shadow: rgba(0, 0, 0, 0.35) 7.95px 4.95px 25px;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+.slider .yazi {
+  width: 90%;
+}
+
+.yazi .first {
+  font-size: 2rem;
+  letter-spacing: .1rem;
+}
+
+.yazi h2 {
+  font-family: 'Alfa Slab One';
+  font-size: 3rem;
+  letter-spacing: .1rem;
+  font-weight: 500;
+}
+
+.yazi .text1 {
+  padding-top: 2rem;
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2rem;
+  
+}
+input {
+  margin-top: 5rem;
+  width: 30px;
+  height: 20px;
+
+}
+
+.m1 {
+  width: 100%;
+  position: relative;
+  bottom: 1.2rem;
+  left: 1rem;
+}
+
+.group-6 {
+  margin-top: 10rem;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+  height: 700px;
+  width: 100%;
+  
+}
+
+.group-6 p {
+    font-size: 2rem;
+    letter-spacing: .1rem;
+    padding-bottom: 1rem;
+  
+}
+
+.group-6 h2 {
+  font-family: 'Alfa Slab One';
+  font-size: 3rem;
+  letter-spacing: .2rem;
+  font-weight: 500;
+  
+}
+
+.group-6 .input {
+  display: inline-grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: baseline;
+  text-align: center;
+  grid-gap: 25px;
+  margin-top: 80px;
+}
+
+.reservation__input {
+  width: 380px;
+  height: 60px;
+  margin-top: 0px;
+  padding-left:1rem ;
+  font-family: 'Bebas Neue';
+  font-size: 1.2rem;
+  border: 1px solid #bebebe;
+  border-radius: .5rem ;
+}
+
+.reservation-btn {
+  background-color: #bf2222;
+  font-family: 'Alfa Slab One';
+  border: none;
+  color: #fff;
+  font-weight: 200;
+  font-size: 1.2rem;
+  padding: 15px 30px;
+ letter-spacing: .1rem;
+  height: 60px;
+  width: 380px;
+  border-radius: .5rem ;
+  cursor: pointer;
+}
+
+.group-6 .bottle {
+  position: absolute;
+  left: 180px;
+  top: 3265px;
+}
+
+.group-6 .burger-reser {
+  position: absolute;
+  left: 0px;
+  top: 3060px;
+}
+
+.group-6 .service-burger {
+  position: absolute;
+  right: 0px;
+  top: 3280px;
+  width: 22%;
+}
+
+.footer {
+  margin-top: -120px;
+  height: 630px;
+  width: 100%;
+  background: url(img/footer-background.png) no-repeat center center ;
+  padding-bottom: 60px;
+}
+
+.footer p {
+  color: #fff;
+  padding-top: 2rem;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.8rem;
+  width: 33%;
+  position: relative;
+  top: 9rem;
+  left: 12rem;
+}
+
+.footer .copyright {
+  font-weight: 300;
+font-size: 1rem;
+top: 15rem;
+font-family: 'Bebas Neue';
+letter-spacing: .1rem;
+}
+
+.footer-logo {
+  position: relative;
+  top: 9rem;
+  left: 12rem;
+}
+
+.location {
+  position: relative;
+  bottom: 1rem;
+  left: 64rem;
+}
+.footer .location-text {
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+  font-size: 1.5rem;
+  position: relative;
+  top: -5.2rem;
+  left: 68rem;
+}
+
+.mail-icon {
+  position: relative;
+  top: -4rem;
+  left: 64.1rem;
+}
+
+.footer .mail-text {
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+  font-size: 1.5rem;
+  position: relative;
+  top: -7.7rem;
+  left: 68rem;
+}
+
+.footer .socials {
+  position: relative;
+  bottom: -2rem;
+  left: 78rem;
+}
+
+.footer .socials img {
+  padding-right: 1rem;
+}
